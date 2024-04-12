@@ -1,3 +1,4 @@
+
 import math
 def add(a,b):
     a+=b
@@ -16,7 +17,7 @@ def div(a,b):
     q=a/b
     r=a%b
     print("Quotient  ==> %s"%q)
-    print("Remainder ==> %s\n"%r)
+    print("Remainder ==> %s"%r)
 def sqr(a):
     c=math.sqrt(a)
     return c
@@ -35,19 +36,19 @@ while(True):
         num1=int(input('-->'))
         num2=int(input('-->'))
         A=add(num1,num2)
-        print("\nSum ==> %s\n"%A)
+        print("\nSum ==> %s"%A)
     elif(choice==2):
         print("\nEnter Two Numbers\n")
         num1=int(input('-->'))
         num2=int(input('-->'))
         B=sub(num1,num2)
-        print("\nDifference ==> %s\n"%B)
+        print("\nDifference ==> %s"%B)
     elif(choice==3):
         print("\nEnter Two Numbers\n")
         num1=int(input('-->'))
         num2=int(input('-->'))
         C=mul(num1,num2)
-        print("\nProduct ==> %s\n"%C)
+        print("\nProduct ==> %s"%C)
     elif(choice==4):
         print("\nEnter Two Numbers\n")
         num1=int(input('-->'))
@@ -57,7 +58,7 @@ while(True):
         print("\nEnter Number\n")
         num1=int(input('-->'))
         E=sqr(num1)
-        print("\nSquareRoot ==> %s\n"%E)
+        print("\nSquareRoot ==> %s"%E)
     elif(choice==6):
         print("\n.....ThankYou.....")
         break
